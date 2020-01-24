@@ -14,9 +14,10 @@ stages:
 cache:
   paths:
     - node_modules/
-    
-test    :
+
+test:
   stage : test
+  script: npm i 
 
 build:
   stage : build
