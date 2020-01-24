@@ -5,11 +5,11 @@ class App extends Component {
    render() {
       return (
          <div class="header">
-            <a href="#default" class="logo">CompanyLogo</a>
+            <a href="#default" class="logo">Suraj Kamdi</a>
             <div class="header-right">
                <a class="active" href="#home">Home</a>
-               <a href="#contact">Contact</a>
-               <a href="#about">About</a>
+               <a href="#contact">Blogs</a>
+               <a href="#about">Contact</a>
             </div>
          </div>
       );
